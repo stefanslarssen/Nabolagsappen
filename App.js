@@ -2860,6 +2860,21 @@ const HomeScreen = ({ onNavigate, district, isLoadingLocation, onRefreshLocation
               onPress={() => onNavigate('nyheter')}
             />
           </View>
+
+          <View style={styles.row}>
+            <SmallCard
+              title="Nødhjelp 113"
+              bgColor="#dc2626"
+              icon={<Ionicons name="warning" size={22} color="#fff" />}
+              onPress={() => Linking.openURL('tel:113')}
+            />
+            <SmallCard
+              title="Kontakt oss"
+              bgColor="#10b981"
+              icon={<Ionicons name="chatbubbles" size={22} color="#fff" />}
+              onPress={() => Alert.alert('Kontakt', 'Send e-post til: hei@nabolagsappen.no')}
+            />
+          </View>
         </View>
 
         <View style={styles.adBanner}>
