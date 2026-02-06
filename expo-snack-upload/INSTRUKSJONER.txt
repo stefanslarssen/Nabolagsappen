@@ -1,0 +1,44 @@
+INSTRUKSJONER FOR EXPO SNACK
+=============================
+
+Steg 1: Apne Expo Snack
+-----------------------
+Ga til: https://snack.expo.dev/
+
+Steg 2: Last opp filene
+-----------------------
+1. Klikk pa "Import git, npm, or local files" (nederst i venstre panel)
+2. Velg "Import from folder" eller dra inn denne mappen
+3. Filene som skal lastes opp:
+   - App.js (hovedfilen med all koden)
+   - package.json (avhengigheter)
+   - assets/ (ikoner og bilder)
+
+Alternativt - manuell opplasting:
+1. Apne App.js i en teksteditor
+2. Kopier alt innholdet
+3. Lim det inn i Snack sin App.js editor
+
+Steg 3: Sjekk avhengigheter
+---------------------------
+Snack skal automatisk installere:
+- @expo/vector-icons
+- @react-native-async-storage/async-storage
+- expo-location
+- react-native-safe-area-context
+
+Steg 4: Test pa mobilen
+-----------------------
+1. Apne Expo Go-appen pa telefonen
+2. Skann QR-koden som vises i Snack (hoyre side)
+3. Appen lastes via Expo sine servere (ikke lokalt)
+
+MERK: App.js er en stor fil (196KB). Hvis Snack har problemer,
+kan du prove a lime inn koden direkte i editoren.
+
+Verifisering
+------------
+- Appen viser velkomstskjerm med bydelvalg
+- Du kan velge bydel basert pa lokasjon
+- Navigasjon mellom skjermer fungerer
+- Data lagres lokalt via AsyncStorage

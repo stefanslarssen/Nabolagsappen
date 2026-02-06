@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "MobilApp",
-    "slug": "MobilApp",
+    "name": "Nabolagsappen",
+    "slug": "nabolagsappen",
+    "owner": "stefanlarsssen",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +25,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "271a9a94-f6b5-4f3a-8682-59c31e0b7d07"
+      }
     }
   }
 }
