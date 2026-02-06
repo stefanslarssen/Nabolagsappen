@@ -2,16 +2,15 @@
   "expo": {
     "name": "Nabolagsappen",
     "slug": "nabolagsappen",
-    "owner": "stefanlarsssen",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "sdkVersion": "51.0.0",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#a855f7"
     },
     "ios": {
       "supportsTablet": true
@@ -19,16 +18,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "271a9a94-f6b5-4f3a-8682-59c31e0b7d07"
+        "backgroundColor": "#a855f7"
       }
     }
   }
